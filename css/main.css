@@ -1,16 +1,16 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: Georgie, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
-*, *: :before, *: :after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
 .cards {
-  magic: 0;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
